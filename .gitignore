@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Medical data and generated outputs: never commit
+data/
+datasets/
+outputs/
+*.zip
+*.csv
+*.xlsx
+*.xls
+*.dcm
+*.nii
+*.nii.gz
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+!assets/*.png
