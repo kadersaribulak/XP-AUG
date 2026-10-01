@@ -1,6 +1,6 @@
 # 🩻 XP-AUG
 
-**X-ray Preparation & Augmentation Studio**: a Streamlit application for preparing, balancing and quality-checking augmented radiograph datasets.
+**X-ray Preprocessing and Augmentation with Built-in Quality Control**: a Streamlit application for preparing, balancing and quality-checking augmented radiograph datasets.
 
 XP-AUG takes a set of X-ray images (plus an optional metadata table) and produces a balanced, reproducible training dataset. It applies a deterministic preprocessing chain and a probability-controlled augmentation policy. Each generated image passes a quantitative quality gate before it is accepted, and every output is traced back to its source image, random seed and applied operations.
 

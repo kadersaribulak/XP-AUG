@@ -1,5 +1,5 @@
 """
-XP-AUG — Medical X-ray Preparation & Augmentation Studio (Streamlit UI).
+XP-AUG — X-ray Preprocessing and Augmentation with Built-in Quality Control (Streamlit UI).
 
 Run:  streamlit run app.py
 """
@@ -216,7 +216,7 @@ with st.sidebar:
 hl, hr = st.columns([2.4, 1])
 with hl:
     st.markdown('<div class="hero"><div class="med-title">🩻 XP-<span class="aug">AUG</span></div>'
-                '<div class="med-sub">Medical X-ray Preparation & Augmentation Studio</div></div>',
+                '<div class="med-sub">X-ray Preprocessing and Augmentation with Built-in Quality Control</div></div>',
                 unsafe_allow_html=True)
 with hr:
     df0 = records_df()
