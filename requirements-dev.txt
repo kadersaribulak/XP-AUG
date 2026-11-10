@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest>=8.0
+scikit-image>=0.22   # reference SSIM used in tests only
